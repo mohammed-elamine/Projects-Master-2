@@ -1,0 +1,23 @@
+{"intents": [
+    {"tag": "web",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["what are you talking about ?", "you talk about printers", "Is this a printing request ?"],
+     "context": [""]
+    },
+    {"tag": "printing request",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Is this a printing request ?", "I'm happy to help", "What do you want to print"],
+     "context": [""]
+    },
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "thanking",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    }
+]
+}
